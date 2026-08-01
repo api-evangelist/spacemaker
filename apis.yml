@@ -1,8 +1,29 @@
 aid: spacemaker
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spacemaker.png
 name: Spacemaker
-description: 'Spacemaker is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Spacemaker was a Norwegian proptech startup (founded 2016 in Oslo) that built
+  cloud-based, AI-assisted generative design software for early-stage real
+  estate and urban site planning, letting architects, developers, and urban
+  planners rapidly explore massing, sunlight, wind, noise, and view analyses to
+  optimize buildable sites. Backed by investors including Northzone, Spacemaker
+  was acquired by Autodesk in November 2020 (reported ~$240M) and its technology
+  was continued and rebranded as Autodesk Forma. The standalone spacemaker.ai
+  domain now permanently (301) redirects to the Autodesk Forma product page, so
+  there is no longer an independent Spacemaker developer portal, API, or
+  documentation surface; developer/API access is provided through Autodesk
+  Forma and the broader Autodesk Platform Services ecosystem.
 url: https://raw.githubusercontent.com/api-evangelist/spacemaker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +31,23 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: autodesk
+x-acquired-date: '2020-11'
+x-successor-product: Autodesk Forma
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Real Estate
+- Proptech
+- Architecture
+- Urban Planning
+- Artificial Intelligence
+- Generative Design
+- Autodesk
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spacemaker-domain-security.yml
 - type: Website
   url: http://spacemaker.ai
+- type: SuccessorProduct
+  name: Autodesk Forma
+  url: https://www.autodesk.com/products/forma/overview
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
