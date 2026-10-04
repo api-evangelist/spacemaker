@@ -54,7 +54,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
-- Real-Estate
+- Real Estate
 - PropTech
 - Architecture
 - Urban Planning
@@ -71,6 +71,7 @@ tags_raw:
 - Artificial Intelligence
 - Generative Design
 - Autodesk
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
